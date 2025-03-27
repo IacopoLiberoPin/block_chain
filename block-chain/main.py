@@ -13,18 +13,19 @@ def main():
             "hash":hashlib.sha256("blocco genesis".encode()).hexdigest(),
             "timestamp":dt.datetime.now().isoformat(),
             "data":"blocco genesis",
-            "utente":None
+            "utente":None,
+            "nonce":None
         }})
     
     print("Benvenuto nel sistema di gestione dei blocchi.")
     while True:
-        print("\n1. Aggiungi un nuovo blocco")
+        print("\n1. minare un nuovo blocco")
         print("2. Visualizza i blocchi esistenti")
         print("3. Esci")
         choice = input("Scegli un'opzione: ")
 
         if choice == "1":
-            new_block()
+            mine()
         elif choice == "2":
             view_blocks()
         elif choice == "3":
