@@ -1,0 +1,10 @@
+{
+     "block": {
+          "id": 0,
+          "prev_hash": null,
+          "hash": "1af8a307f500fd167746533d54f036737284ab96d36c318f2d55ca38a75b391d",
+          "timestamp": "2025-03-27T17:11:23.886061",
+          "data": "blocco genesis",
+          "utente": null
+     }
+}
